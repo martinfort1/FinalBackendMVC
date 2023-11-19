@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "jpHyHk0HCyhrjTZ2ti587BMEWSwJ/SqNJMOVR9RevaU=",
+  "Source": "ProyectoMVC",
+  "BasePath": "_content/ProyectoMVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProyectoMVC/wwwroot",
+      "Source": "ProyectoMVC",
+      "ContentRoot": "/Users/tommy/Downloads/FinalMVC/wwwroot/",
+      "BasePath": "_content/ProyectoMVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/tommy/Downloads/FinalMVC/wwwroot/CSS/site.css",
+      "SourceId": "ProyectoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tommy/Downloads/FinalMVC/wwwroot/",
+      "BasePath": "_content/ProyectoMVC",
+      "RelativePath": "CSS/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/CSS/site.css"
+    },
+    {
+      "Identity": "/Users/tommy/Downloads/FinalMVC/wwwroot/index.html",
+      "SourceId": "ProyectoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/tommy/Downloads/FinalMVC/wwwroot/",
+      "BasePath": "_content/ProyectoMVC",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
