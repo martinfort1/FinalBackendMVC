@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "/Users/tommy/Downloads/FinalMVC/wwwroot/CSS/site.css",
-      "PackagePath": "staticwebassets/CSS/site.css"
+      "Id": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\CSS\\site.css",
+      "PackagePath": "staticwebassets\\CSS\\site.css"
     },
     {
-      "Id": "/Users/tommy/Downloads/FinalMVC/wwwroot/index.html",
-      "PackagePath": "staticwebassets/index.html"
+      "Id": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.ProyectoMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProyectoMVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.ProyectoMVC.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProyectoMVC.props",
       "PackagePath": "build\\ProyectoMVC.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.ProyectoMVC.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProyectoMVC.props",
       "PackagePath": "buildMultiTargeting\\ProyectoMVC.props"
     },
     {
-      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.ProyectoMVC.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProyectoMVC.props",
       "PackagePath": "buildTransitive\\ProyectoMVC.props"
     }
   ],

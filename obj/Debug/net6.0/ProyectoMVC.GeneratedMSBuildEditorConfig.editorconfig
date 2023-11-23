@@ -9,41 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoMVC
 build_property.RootNamespace = ProyectoMVC
-build_property.ProjectDir = /Users/tommy/Downloads/FinalMVC/
+build_property.ProjectDir = C:\Users\titif\source\repos\FinalBackEndMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/tommy/Downloads/FinalMVC
+build_property.MSBuildProjectDirectory = C:\Users\titif\source\repos\FinalBackEndMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/tommy/Downloads/FinalMVC/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/titif/source/repos/FinalBackEndMVC/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/App/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL0Fib3V0LmNzaHRtbA==
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/App/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEFib3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/App/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL0VkaXQuY3NodG1s
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/App/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/App/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL0luZGV4LmNzaHRtbA==
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/App/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/App/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwL19WaWV3U3RhcnQuY3NodG1s
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/App/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/Shared/_Botones.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Cb3RvbmVzLmNzaHRtbA==
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/Shared/_Botones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tommy/Downloads/FinalMVC/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/titif/source/repos/FinalBackEndMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

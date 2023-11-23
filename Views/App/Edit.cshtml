@@ -12,21 +12,25 @@
 		<input asp-for="Nombre" type="text" class="form-control"><br />
 		<span asp-validation-for="Nombre" class="text-danger"></span>
 		<br />
+
 		<label asp-for="Descripcion">Descripción del Producto</label>
 		<br />
 		<input asp-for="Descripcion" type="text" class="form-control"><br />
 		<span asp-validation-for="Descripcion" class="text-danger"></span>
 		<br />
+
 		<label asp-for="Categoria">Categoría del Producto</label>
 		<br />
 		<input asp-for="Categoria" type="text" class="form-control"><br />
 		<span asp-validation-for="Categoria" class="text-danger"></span>
 		<br />
+
 		<label asp-for="Precio">Precio del Producto</label>
 		<br />
 		<input asp-for="Precio" type="text" class="form-control"><br />
 		<span asp-validation-for="Precio" class="text-danger"></span>
 		<br />
+
 		<label asp-for="Cantidad">Cantidad del Producto</label>
 		<br />
 		<input asp-for="Cantidad" type="text" class="form-control"><br />
@@ -35,10 +39,9 @@
 
 		<!-- Otros campos del modelo -->
 
-		<input type="submit" class="btn btn-primary">
-		<a asp-controller="App" asp-action="Index" class="btn btn-secondary">Cancelar</a>
-	</div>
+		<input value="Guardar" type="submit" class="btn btn-primary">
+		<a asp-controller="App" asp-action="Index" class="btn btn-danger">Cancelar</a>
+	</div>                                                         
 </form>
 <div>
-	<a href="#">Ir atrás</a>
 </div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jpHyHk0HCyhrjTZ2ti587BMEWSwJ/SqNJMOVR9RevaU=",
+  "Hash": "xaGxfdhVF7GHPQ1Ku8puHRDzHyZ0KoeTZB0Jh6bqYhQ=",
   "Source": "ProyectoMVC",
   "BasePath": "_content/ProyectoMVC",
   "Mode": "Default",
@@ -8,47 +8,51 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "ProyectoMVC/wwwroot",
+      "Name": "ProyectoMVC\\wwwroot",
       "Source": "ProyectoMVC",
-      "ContentRoot": "/Users/tommy/Downloads/FinalMVC/wwwroot/",
+      "ContentRoot": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\",
       "BasePath": "_content/ProyectoMVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/tommy/Downloads/FinalMVC/wwwroot/CSS/site.css",
+      "Identity": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\CSS\\site.css",
       "SourceId": "ProyectoMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tommy/Downloads/FinalMVC/wwwroot/",
+      "ContentRoot": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\",
       "BasePath": "_content/ProyectoMVC",
       "RelativePath": "CSS/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/CSS/site.css"
+      "OriginalItemSpec": "wwwroot\\CSS\\site.css"
     },
     {
-      "Identity": "/Users/tommy/Downloads/FinalMVC/wwwroot/index.html",
+      "Identity": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\index.html",
       "SourceId": "ProyectoMVC",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tommy/Downloads/FinalMVC/wwwroot/",
+      "ContentRoot": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\",
       "BasePath": "_content/ProyectoMVC",
       "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/index.html"
+      "OriginalItemSpec": "wwwroot\\index.html"
     }
   ]
 }

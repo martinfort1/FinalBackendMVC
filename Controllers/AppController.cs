@@ -6,14 +6,14 @@ namespace ProyectoMVC.Controllers
 {
     public class AppController : Controller
     {
-        private static List<ProductosViewModel> _Producto = new List<ProductosViewModel>();
+        private static List<ProductosViewModel> _producto = new List<ProductosViewModel>();
         public IActionResult Index()
         {
-            return View(_Producto);
+            return View(_producto);
         }
         public IActionResult Edit(Guid id)
         {
-            var producto = _Producto.FirstOrDefault(x => x.Id == id);
+            var producto = _producto.FirstOrDefault(x => x.Id == id);
             return View(producto);
         }
         [HttpGet("about")]
@@ -24,13 +24,13 @@ namespace ProyectoMVC.Controllers
         [HttpPost]
         public IActionResult Edit(ProductosViewModel modelo)
         {
-            var producto = _Producto.FirstOrDefault(x => x.Id == modelo.Id);
+            var producto = _producto.FirstOrDefault(x => x.Id == modelo.Id);
             if (ModelState.IsValid)
             {
                 if (producto == null)
                 {
                     modelo.Id = Guid.NewGuid();
-                    _Producto.Add(modelo);
+                    _producto.Add(modelo);
                 }
                 else
                 {
@@ -49,10 +49,10 @@ namespace ProyectoMVC.Controllers
 
         public IActionResult Delete(Guid id)
         {
-            var producto = _Producto.FirstOrDefault(x => x.Id == id);
+            var producto = _producto.FirstOrDefault(x => x.Id == id);
             if (producto != null)
             {
-                _Producto.Remove(producto);
+                _producto.Remove(producto);
             }
             return RedirectToAction(nameof(Index));
         }

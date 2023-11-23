@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using ProyectoMVC.Data;
 using ProyectoMVC.ViewModel;
@@ -15,24 +16,25 @@ namespace ProyectoMVC.Repositorios
             _context = context;
             _mapper = mapper;
         }
-        public async Task<ProductosViewModel> CrearOActualizar(ProductosViewModel productoDto, int id = 0)
+        public async Task<ProductosViewModel> CrearOActualizar(ProductosViewModel productoDto, Guid id)
         {
             var productos = productoDto;
-            if (id == 0)
+            if (id == Guid.Empty)
             {
 
-                await _context.Productos.AddAsync(productos);
+                await _context.Productos.AddAsync(productos); // crear 
             }
             else
             {
-                productos.Id = id; //? solucionar esto 
+                productos.Id = id; //actualiza
+
             }
 
             await _context.SaveChangesAsync();
             return productos;
         }
 
-        public async Task<bool> DeleteProductos(int id)
+        public async Task<bool> DeleteProductos(Guid id)
         {
             try
             {
@@ -45,7 +47,7 @@ namespace ProyectoMVC.Repositorios
                 }
                 return false;
             }
-            catch (Exception ex)
+            catch (Exception) // posible error aca volver a agregar ex o _
             {
                 throw;
             }
@@ -66,10 +68,17 @@ namespace ProyectoMVC.Repositorios
             return productos;
         }
 
-        public async Task<ProductosViewModel> GetProductosById(int id)
+        public async Task<ProductosViewModel?> GetProductosById(Guid id)//agregar ? 
         {
             var productos = await _context.Productos.FindAsync(id);
-            return productos; ; //! posible error aca
+            if(productos != null)
+            {
+                return productos;
+            }
+            else //agregar
+            {
+                return null;
+            }
         }
 
     }
