@@ -1,0 +1,47 @@
+@model ProyectoMVC.ViewModel.ProductosViewModel
+@{
+	ViewBag.Title = "Editar Productos";
+}
+
+<h2>Aquí podrás agregar tus productos</h2>
+
+<form method="Post">
+	<div class="form-group">
+		<label asp-for="Nombre">Nombre del Producto</label>
+		<br />
+		<input asp-for="Nombre" type="text" class="form-control"><br />
+		<span asp-validation-for="Nombre" class="text-danger"></span>
+		<br />
+
+		<label asp-for="Descripcion">Descripción del Producto</label>
+		<br />
+		<input asp-for="Descripcion" type="text" class="form-control"><br />
+		<span asp-validation-for="Descripcion" class="text-danger"></span>
+		<br />
+
+		<label asp-for="Categoria">Categoría del Producto</label>
+		<br />
+		<input asp-for="Categoria" type="text" class="form-control"><br />
+		<span asp-validation-for="Categoria" class="text-danger"></span>
+		<br />
+
+		<label asp-for="Precio">Precio del Producto</label>
+		<br />
+		<input asp-for="Precio" type="text" class="form-control"><br />
+		<span asp-validation-for="Precio" class="text-danger"></span>
+		<br />
+
+		<label asp-for="Cantidad">Cantidad del Producto</label>
+		<br />
+		<input asp-for="Cantidad" type="text" class="form-control"><br />
+		<span asp-validation-for="Cantidad" class="text-danger"></span>
+		<br />
+
+		<!-- Otros campos del modelo -->
+
+		<input value="Guardar" type="submit" class="btn btn-primary">
+		<a asp-controller="App" asp-action="Index" class="btn btn-danger">Cancelar</a>
+	</div>                                                         
+</form>
+<div>
+</div>

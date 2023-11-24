@@ -1,0 +1,8 @@
+.btnEdit{
+    background-image: url(Views/App/images/Edit.png);
+}
+
+.btnDelete {
+    background-image: url(Views/App/images/Delete.png) ;
+    
+}

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "xaGxfdhVF7GHPQ1Ku8puHRDzHyZ0KoeTZB0Jh6bqYhQ=",
+  "Source": "ProyectoMVC",
+  "BasePath": "_content/ProyectoMVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProyectoMVC\\wwwroot",
+      "Source": "ProyectoMVC",
+      "ContentRoot": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\",
+      "BasePath": "_content/ProyectoMVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\CSS\\site.css",
+      "SourceId": "ProyectoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\",
+      "BasePath": "_content/ProyectoMVC",
+      "RelativePath": "CSS/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\index.html",
+      "SourceId": "ProyectoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\titif\\source\\repos\\FinalBackEndMVC\\wwwroot\\",
+      "BasePath": "_content/ProyectoMVC",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

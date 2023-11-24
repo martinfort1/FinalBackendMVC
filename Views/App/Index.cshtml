@@ -1,0 +1,42 @@
+@model IEnumerable<ProductosViewModel>
+
+@{
+	ViewBag.Title = "Home Page";
+    
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Categoria</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th><a a asp-controller="App" asp-action="Edit" class="btn btn-success">Agregar Producto</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model == null){
+            <tr><td>No hay datos</td></tr>
+        }
+        else{
+            @foreach(var item in Model){
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.Categoria</td>
+                    <td>@item.Cantidad</td>
+                    <td>@item.Precio</td>
+                    <td>
+                        <a asp-controller="App" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                        <a asp-controller="App" asp-action="Delete" asp-route-id="@item.Id"
+                            onclick="return confirm('Estas seguro que deseas eliminar el producto?')"
+                            class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }   
+        }
+    </tbody>
+</table>
